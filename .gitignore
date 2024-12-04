@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+downloads/
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Environment files
+.env               # Environment variable files
+.env.*             # For example, .env.production, .env.local
+
+# IDE/editor config files
+.vscode/           # VSCode settings
+.idea/             # JetBrains IDE files
+
+# Optional npm cache folder
+.npm/
+
+# build output
+/dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript files (if using TypeScript)
+*.tsbuildinfo
+
+# Next.js specific (if using Next.js)
+.next/
+
+# SvelteKit specific (if using SvelteKit)
+.svelte-kit/
+
+# Nuxt.js specific (if using Nuxt.js)
+.nuxt/
+
+# Vue.js specific (if using Vue CLI)
+node_modules/.cache/
